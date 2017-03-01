@@ -25,7 +25,7 @@ HTML definerer alle elementer på en nettside, eksempel tekst-element, bilde-ele
 <body>
     <h1>My First Heading</h1>
     <p>My first paragraph.</p>
-    <img src = "source_url" />
+    <img src = "source_url"></img>
     <a href ="link_url">I'm a link, click me!</>
 </body>
 </html>
@@ -37,8 +37,13 @@ HTML definerer alle elementer på en nettside, eksempel tekst-element, bilde-ele
 - `<body>` inneholder alt som blir synlig på siden
 
 ### HTML-tags
-Det er veldig mange definerte HTML-tags, og de er som regel bygget av at attributtverdier og innhold. Attributtverdier skrives innenfor parantesene , mens innholdet skrives imellom parantesene :
-`<attributter> innhold </>`
+HTML-tags er som regel bygget av elementtype, attributtverdier og innhold.
+
+Struktur: `<elementType attributter> innhold </elementType>`
+
+Eksempel: `<h1 class="header"> Hello! </h1> `
+
+Her er `h1` elementtype, `class="header"` en attributt, og innholdet til elementet er `Hello!`
 
 
 ## CSS
