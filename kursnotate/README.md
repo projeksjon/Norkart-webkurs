@@ -57,3 +57,4 @@ I webutvikling kan man velge å enten skrive JavaScript koden i html filen eller
 JavaScript er et skriftspråk som er best kjent for å tilføre dynamiske elementer til nettsider, for eksempel kan den fjerne, bytte ut og legge til elementer. Om du har et html-element med noe tekst, kan man enkelt endre teksten i dette elementet ved å bruke events og JavaScript.
 
 ### Events
+JavaScript samhandler med HTML gjennom events. Et event oppstår når brukeren gjør ulike ting, f.eks trykker på en knapp, skriver noe tekst inn i et input felt, beveger på musen etc. Eventsene brukes til å kjøre JavaScript koden. JavaScript kode kan få et vindu til å lukke seg, eller en tekst til å vises, eller validering av data og mye mye mer. Alle HTML elementer inneholder et sett med eventer som kan kjøre JavaScript kode. 
