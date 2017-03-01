@@ -54,4 +54,6 @@ JavaScript har ingenting med Java å gjøre (utenom likhet i navnet)
 
 I webutvikling kan man velge å enten skrive JavaScript koden i html filen eller lage en egen fil. Skal man skrive javasvcripten i html-filen skal dette gjøres inni `<script> </script>` taggen. Det mest vanlige, og mest ryddige, er å skrive JS koden i en egen fil som man lagrer som "filnavn".js for deretter å importere denne filen i html filen din ved å skrive `<script src="filnavn.js"/> `. 
 
-JavaScript er et skriftspråk som er best kjent for å tilføre dynamiske elementer til nettsider, for eksempel kan den fjerne, bytte ut og legge til elementer. Om du har et html-element med noe tekst, kan man enkelt endre teksten i dette elementet ved å kalle på en funksjon.
+JavaScript er et skriftspråk som er best kjent for å tilføre dynamiske elementer til nettsider, for eksempel kan den fjerne, bytte ut og legge til elementer. Om du har et html-element med noe tekst, kan man enkelt endre teksten i dette elementet ved å bruke events og JavaScript.
+
+### Events
