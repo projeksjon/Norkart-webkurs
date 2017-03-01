@@ -7,30 +7,29 @@
         <title>kode-eksempel</title>
         <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 
-        <!-- <a href="https://www.norkart.no" target="_blank">I'm a link, click me!</a> -->
+        <link rel="stylesheet" href="style.css" />
+
     </head>
     <body>
-        <!-- Dependencies -->
-        <link rel="stylesheet" href="style.css" />
-        <!-- <script src="public/js/index.js"></script> -->
-
         <div id="content">
             <h1>Hva er det beste studiet på gløs?</h1>
             <button id='bestStudy-btn' onclick="addImageRemoveBtn('bestStudy-btn', 'bestStudy-img')"> Se svar </button>
+            <img id="bestStudy-img" class="code-img" src = "./img/i-ikt.png"></img>
             <br><br/>
 
             <h1>Hva er den beste spesialiseringen?</h1>
             <button id="bestSpes-btn" onmouseover="addImageRemoveBtn('bestSpes-btn', 'bestSpes-img')"> Se svar </button>
-            <img id="bestSpes-img" class="code-img" src = "https://10clouds.com/wp-content/uploads/2015/06/jscode.png"></img>
+            <img id="bestSpes-img" class="code-img" src = "./img/geomatikk.png"></img>
 
             <br><br/>
 
-            <h1>Hvor bør man begynne å jobbe etter studiet?</h1>
+            <h1>Hvor skal DU søke sommerjobb?</h1>
             <button id="bestWork-btn" ondblclick="addImageRemoveBtn('bestWork-btn', 'bestWork-img')"> Se svar </button>
-            <img id="bestWork-img" class="code-img" src = "https://10clouds.com/wp-content/uploads/2015/06/jscode.png"></img>
+            <img id="bestWork-img" class="code-img" src = "./img/norkart.png"></img>
 
         </div>
 
         <script type="text/javascript" src="logic.js"></script>
+        
     </body>
 </html>
