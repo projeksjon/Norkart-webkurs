@@ -23,10 +23,7 @@ HTML definerer alle elementer på en nettside, eksempel tekst-element, bilde-ele
 <title>Page Title</title>
 </head>
 <body>
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
-    <img src = "source_url"></img>
-    <a href ="link_url">I'm a link, click me!</>
+
 </body>
 </html>
 ```
@@ -36,15 +33,29 @@ HTML definerer alle elementer på en nettside, eksempel tekst-element, bilde-ele
 - `<head>` inneholder meta-informasjon om dokumentet
 - `<body>` inneholder alt som blir synlig på siden
 
+
 ### HTML-tags
 HTML-tags er som regel bygget av elementtype, attributtverdier og innhold.
 
-Struktur: `<elementType attributter> innhold </elementType>`
+**Struktur:** `<elementType attributter> innhold </elementType>`  
+**Eksempel:** `<h1 class="header"> Hello! </h1> `  
+Her er `h1` element-type, `class="header"` en attributt, og innholdet til elementet er `Hello!`
 
-Eksempel: `<h1 class="header"> Hello! </h1> `
+Noen eksempler på HTML tags er:
 
-Her er `h1` elementtype, `class="header"` en attributt, og innholdet til elementet er `Hello!`
+``` HTML
+<h1>My First Heading</h1>
+<h2>This is heading 2. I'm smaller than h1 elements</h2>
+<p>My first paragraph.</p>
+<img src = "source_url"></img>
+<a href ="link_url">I'm a link, click me!</>
+<ul class="list">
+  <li>First list element</li>
+  <li>Second list element</li>
+  <li>Third list element</li>
+</ul>
 
+```
 
 ## CSS
 
