@@ -60,8 +60,19 @@ JavaScript er et skriftspråk som er best kjent for å tilføre dynamiske elem
 JavaScript samhandler med HTML gjennom events. Et event oppstår når brukeren gjør ulike ting, f.eks trykker på en knapp, skriver noe tekst inn i et input felt, beveger på musen etc. Eventsene brukes til å kjøre JavaScript koden. JavaScript kode kan få et vindu til å lukke seg, eller en tekst til å vises, eller validering av data og mye mye mer. Alle HTML elementer inneholder et sett med eventer som kan kjøre JavaScript kode. 
 
 Eksempel:
+
 En paragraf med noe tekst i HTML
-`<p id="demo">Velkommen til denne siden</p>`
+
+`
+<p id="demo">Velkommen til denne siden</p>
+<button onclick="sayGoodbye()">Hade</button>
+`
+
 Kan endres ved å skrive dette i JavaScript
-`document.getElementById("demo").innerHTML = "Du er ikke velkommen lengre";`
+
+`
+function sayGoodbye() {
+   document.getElementById("demo").innerHTML = "Hadebra!";
+}
+`
 
