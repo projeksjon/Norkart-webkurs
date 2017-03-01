@@ -63,10 +63,8 @@ Eksempel:
 
 En paragraf med noe tekst i HTML
 
-`
-<p id="demo">Velkommen til denne siden</p>
-<button onclick="sayGoodbye()">Hade</button>
-`
+`<p id="demo">Velkommen til denne siden</p>
+<button onclick="sayGoodbye()">Hade</button>`
 
 Kan endres ved å skrive dette i JavaScript
 
