@@ -31,6 +31,7 @@ Her er noen eksempler på bakgrunnskart dere kan bruke. Det eneste dere trenger 
 
 
 ![grey](./public/images/grey.png)
+<img src="./public/images/grey.png" style="width: 390px;"/>
 
 Url: `https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWF0aGlsZG8iLCJhIjoiY2lrdHZvMHdsMDAxMHdvbTR0MWZkY3FtaCJ9.u4bFYLBtEGNv4Qaa8Uaqzw`
 
