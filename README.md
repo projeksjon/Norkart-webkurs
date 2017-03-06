@@ -30,21 +30,21 @@ Bakgrunnskart definerer stilen på kartet, og kan enkelt byttes i koden i `publi
 Her er noen eksempler på bakgrunnskart dere kan bruke. Det eneste dere trenger å gjøre er å endre `basemapUrl`.
 
 
-<img src="./public/images/grey.png" style="width: 450px;"/>
+<img src="./public/images/grey.png" width="450px"/>
 
 Url: `https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWF0aGlsZG8iLCJhIjoiY2lrdHZvMHdsMDAxMHdvbTR0MWZkY3FtaCJ9.u4bFYLBtEGNv4Qaa8Uaqzw`
 
-<img src="./public/images/satellite.png" style="width: 450px;"/>
+<img src="./public/images/satellite.png" width="450px"/>
 
 Url: `https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWF0aGlsZG8iLCJhIjoiY2lrdHZvMHdsMDAxMHdvbTR0MWZkY3FtaCJ9.u4bFYLBtEGNv4Qaa8Uaqzw`
 
 
-<img src="./public/images/streets.png" style="width: 450px;"/>
+<img src="./public/images/streets.png" width="450px"/>
 
 Url: `https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWF0aGlsZG8iLCJhIjoiY2lrdHZvMHdsMDAxMHdvbTR0MWZkY3FtaCJ9.u4bFYLBtEGNv4Qaa8Uaqzw`
 
 
-<img src="./public/images/osm.png" style="width: 450px;"/>
+<img src="./public/images/osm.png" width="450px"/>
 
 Url: `http://{s}.tile.osm.org/{z}/{x}/{y}.png`
 
