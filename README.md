@@ -11,11 +11,10 @@
 - [Styling](#styling)
 
 ## Oppgave
-
-Lag en nettside som på best mulig måte viser dine topp tre utesteder i Trondheim.
+Lag en nettside som på best mulig måte viser dine topp tre utesteder i Trondheim. Ta utganspunkt i koden som ligger i mappen [task-boilerplate](./task-boilerplate).
 
 ## Kjøre koden
-Last ned koden ved å trykke "Clone or Download". Deretter last ned zip, eller clone hvis du har git installert. Når koden er lastet ned kan du åpne `index.html` i nettleseren, og du er i gang!
+Last ned koden ved å trykke "Clone or Download". Deretter last ned zip, eller clone hvis du har git installert. Når koden er lastet ned kan du gå inn i mappen som heter `task-boilerplate` og åpne `index.html` i nettleseren, og du er i gang!
 
 ## Bakgrunnskart
 
