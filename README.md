@@ -3,7 +3,6 @@
 
 ## Innhold:
 
-[Innhold:](#innhold)
 - [Oppgave](#oppgave)
 - [Kjøre koden](#kjøre-koden)
 - [Bakgrunnskart](#bakgrunnskart)
