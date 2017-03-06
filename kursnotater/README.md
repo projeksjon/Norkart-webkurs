@@ -86,3 +86,9 @@ function sayGoodbye() {
    document.getElementById("demo").innerHTML = "Hadebra!";
 }
 ```
+
+Resultatet etter knappen er trykket på:
+```
+<p id="demo">Hadebra!</p>        // <--- Innholdet er endret til Hadebra! 
+<button onclick="sayGoodbye()">Hade</button>
+```
