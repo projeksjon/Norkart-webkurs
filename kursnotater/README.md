@@ -63,24 +63,26 @@ Noen eksempler på HTML tags er:
 ## javaScript
 JavaScript har ingenting med Java å gjøre (utenom likhet i navnet)
 
-I webutvikling kan man velge å enten skrive JavaScript koden i html filen eller lage en egen fil. Skal man skrive javasvcripten i html-filen skal dette gjøres inni `<script> </script>` taggen. Det mest vanlige, og mest ryddige, er å skrive JS koden i en egen fil som man lagrer som "filnavn".js for deretter å importere denne filen i html filen din ved å skrive `<script src="filnavn.js"/> `.
+I webutvikling kan man velge å enten skrive JavaScript koden i html filen eller lage en egen fil. Skal man skrive javasvcripten i html-filen skal dette gjøres inni `<script> </script>` taggen. Det mest vanlige, og mest ryddige, er å skrive JavaScript koden i en egen fil som man lagrer som "filnavn".js for deretter å importere denne filen i html filen din ved å skrive `<script src="filnavn.js"/> `.
 
 JavaScript er et skriftspråk som er best kjent for å tilføre dynamiske elementer til nettsider, for eksempel kan den fjerne, bytte ut og legge til elementer. Om du har et html-element med noe tekst, kan man enkelt endre teksten i dette elementet ved å bruke events og JavaScript.
 
 ### Events
-JavaScript samhandler med HTML gjennom events. Et event oppstår når brukeren gjør ulike ting, f.eks trykker på en knapp, skriver noe tekst inn i et input felt, beveger på musen etc. Eventsene brukes til å kjøre JavaScript koden. JavaScript kode kan få et vindu til å lukke seg, eller en tekst til å vises, eller validering av data og mye mye mer. Alle HTML elementer inneholder et sett med eventer som kan kjøre JavaScript kode.
+JavaScript samhandler med HTML gjennom events. Et event oppstår når brukeren gjør ulike ting, f.eks trykker på en knapp, skrive i et input felt, bevege på musen etc. Events kan også være noe nettleseren gjør, uten av bruker gjør noe. Eksempel på et nettleser event er når webapplikasjonen er ferdig lastet. Eventsene brukes til å kjøre JavaScript kode og er normalt tiknyttet en eller flere funksjoner. Funksjonen vil da ikke kalles før eventet oppstår. JavaScript kode kan få et vindu til å lukke seg, eller en tekst til å vises, eller validering av data og mye mye mer. Alle HTML elementer inneholder et sett med eventer som kan kjøre JavaScript kode.
 
 Eksempel:
 
 En paragraf med noe tekst i HTML
 
-`<p id="demo">Velkommen til denne siden</p>
-<button onclick="sayGoodbye()">Hade</button>`
+```
+<p id="demo">Velkommen til denne siden</p>
+<button onclick="sayGoodbye()">Hade</button>
+```
 
 Kan endres ved å skrive dette i JavaScript
 
-`
+```
 function sayGoodbye() {
    document.getElementById("demo").innerHTML = "Hadebra!";
 }
-`
+```
