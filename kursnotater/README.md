@@ -112,7 +112,7 @@ Her vil alle elementer med `class = "center"` få den spesifiserte stilen.
 
 
 #### Kombinert selector: <a name="Combined-selector"></a>
-Man kan enkelt kombinere flere selectorer og på den måten spesifisere stil kun for elementer som med kombinasjonen av kravene.
+Man kan enkelt kombinere flere selectorer og på den måten spesifisere stil kun for elementer med kombinasjonen av kravene.
 
 ```CSS
 p.center{
@@ -120,11 +120,11 @@ p.center{
   color: red;
 }
 ```
-Her vil kun paragraf elementer (`p`) som i tillegg har `class = "center" ` få den spesifiserte stilen.
+Her vil kun paragraf-elementer (`p`) som i tillegg har `class = "center" ` få den spesifiserte stilen.
 
 
 #### Gruppe selector: <a name="Group-selector"></a>
-Hvis man ønsker å spesifisere stil for flere elementer samtidig, komibnerer man de med komma:
+Hvis man ønsker å spesifisere stil for flere elementer samtidig, kombinerer man de med komma:
 
 ```CSS
 h1, h2, #info{
@@ -152,21 +152,21 @@ Eksempel:
 
 En paragraf med noe tekst i HTML
 
-```
+```HTML
 <p id="demo">Velkommen til denne siden</p>
 <button onclick="sayGoodbye()">Hade</button>
 ```
 
 Kan endres ved å skrive dette i JavaScript
 
-```
+```js
 function sayGoodbye() {
    document.getElementById("demo").innerHTML = "Hadebra!";
 }
 ```
 
 Resultatet etter knappen er trykket på:
-```
+```HTML
 <p id="demo">Hadebra!</p>        // <--- Innholdet er endret til Hadebra!
 <button onclick="sayGoodbye()">Hade</button>
 ```
