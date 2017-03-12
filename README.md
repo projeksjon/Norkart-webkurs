@@ -48,7 +48,7 @@ Url: `http://{s}.tile.osm.org/{z}/{x}/{y}.png`
 
 
 ## Popup
-Legg inn kort forklaring eller eventuelt bare link til docs for hvordan man legger inn popup
+http://leafletjs.com/reference.html#popup
 
 ## Styling
-Hvordan endre stylingen av punktene
+http://leafletjs.com/examples/custom-icons/
