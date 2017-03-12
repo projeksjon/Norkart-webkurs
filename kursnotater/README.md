@@ -76,7 +76,6 @@ For å spesifisere hvilket HTML element man ønsker å style, brukes CSS-selecto
 
 
 ##### Element-type: <a name="Element-selector"></a>
-
 Her er et eksempel på en CSS-selector for en element-type. Her vil alle paragrafer (element-type `p`) få den spesifiserte stilen.
 
 ``` CSS
@@ -87,7 +86,6 @@ p {
 ```
 
 #### Id-navn: <a name="Id-selector"></a>
-
 For å spesifisere stil for et html element med en spesifikk id, brukes `#` etterfulgt av id-navnet.
 
 ```CSS
@@ -101,7 +99,6 @@ Her vil elementet med `id = "info_para"` få den spesifiserte stilen.
 
 
 #### Klassenavn: <a name="Class-selector"></a>
-
 For å spesifisere HTML-elementer basert på klassenavn brukes `.` etterfulgt av klassenavnet.
 
 ```CSS
@@ -113,9 +110,9 @@ For å spesifisere HTML-elementer basert på klassenavn brukes `.` etterfulgt av
 
 Her vil alle elementer med `class = "center"` få den spesifiserte stilen.
 
-#### Kombinert selector: <a name="Combined-selector"></a>
 
-Man kan enkelt kombinere flere selectorer.
+#### Kombinert selector: <a name="Combined-selector"></a>
+Man kan enkelt kombinere flere selectorer og på den måten spesifisere stil kun for elementer som med kombinasjonen av kravene.
 
 ```CSS
 p.center{
@@ -123,9 +120,10 @@ p.center{
   color: red;
 }
 ```
+Her vil kun paragraf elementer (`p`) som i tillegg har `class = "center" ` få den spesifiserte stilen.
+
 
 #### Gruppe selector: <a name="Group-selector"></a>
-
 Hvis man ønsker å spesifisere stil for flere elementer samtidig, komibnerer man de med komma:
 
 ```CSS
@@ -135,7 +133,7 @@ h1, h2, #info{
 }
 ```
 
-Her spesifiserer man stilen for både `h1`, `h2` elementer, og elementet med `id = info`.
+Her spesifiserer man stilen for både `h1` og `h2` elementer, og elementet med `id = info`.
 
 
 ## javaScript
