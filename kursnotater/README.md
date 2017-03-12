@@ -8,11 +8,11 @@
 - [HTML](#html)
   - [Tags](HTML-tags)
 - [CSS](#css)
-  - [Element-selector](#Element-type)
-  - [Id-selector](#Id-navn)
-  - [Klassenavn-selector](#Klasse-navn)
-  - [Kombinert-selector](#Kombinert-selector)
-  - [Gruppe-selector](#Gruppe-selector)
+  - [Element-selector](#Element-selector)
+  - [Id-selector](#Id-selector)
+  - [Klassenavn-selector](#Class-selector)
+  - [Kombinert-selector](#Combined-selector)
+  - [Gruppe-selector](#Group-selector)
 - [javaScript](#javascript)
 
 
@@ -40,7 +40,7 @@ HTML definerer alle elementer på en nettside, for eksempel tekst-element, bilde
 - `<body>` inneholder alt som blir synlig på siden
 
 
-### HTML-tags
+### HTML-tags:
 HTML-tags er som regel bygget opp av elementtype, attributtverdier og innhold.
 
 **Struktur:** `<elementType attributter> innhold </elementType>`  
@@ -67,7 +67,7 @@ Noen eksempler på HTML tags er:
 
 CSS definerer stilen til HTML-elementene. som for eksempel størrelse, farge og font-type til et tekst-element.
 
-#### CSS selector's
+### CSS selector's
 For å spesifisere hvilket HTML element man ønsker å style, brukes CSS-selectors. HTML elementene spesifiseres på tre forskjellige måter:
 
 - Elementtype
@@ -75,7 +75,7 @@ For å spesifisere hvilket HTML element man ønsker å style, brukes CSS-selecto
 - Klassenavn
 
 
-##### Element-type:
+##### Element-type: <a name="Element-selector"></a>
 
 Her er et eksempel på en CSS-selector for en element-type. Her vil alle paragrafer (element-type `p`) få den spesifiserte stilen.
 
@@ -86,7 +86,7 @@ p {
 }
 ```
 
-#### Id-navn
+#### Id-navn: <a name="Id-selector"></a>
 
 For å spesifisere stil for et html element med en spesifikk id, brukes `#` etterfulgt av id-navnet.
 
@@ -100,7 +100,7 @@ For å spesifisere stil for et html element med en spesifikk id, brukes `#` ette
 Her vil elementet med `id = "info_para"` få den spesifiserte stilen.
 
 
-#### Klassenavn
+#### Klassenavn: <a name="Class-selector"></a>
 
 For å spesifisere HTML-elementer basert på klassenavn brukes `.` etterfulgt av klassenavnet.
 
@@ -113,7 +113,7 @@ For å spesifisere HTML-elementer basert på klassenavn brukes `.` etterfulgt av
 
 Her vil alle elementer med `class = "center"` få den spesifiserte stilen.
 
-#### Kombinert selector
+#### Kombinert selector: <a name="Combined-selector"></a>
 
 Man kan enkelt kombinere flere selectorer.
 
@@ -124,7 +124,7 @@ p.center{
 }
 ```
 
-#### Gruppe selector
+#### Gruppe selector: <a name="Group-selector"></a>
 
 Hvis man ønsker å spesifisere stil for flere elementer samtidig, komibnerer man de med komma:
 
