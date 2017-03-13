@@ -1,5 +1,5 @@
 
 function addImageRemoveBtn(idbtn, imageid) {
-	document.getElementById(idbtn).style.display = 'none';
-	document.getElementById(imageid).style.display = '-webkit-inline-box';
+	document.getElementById(idbtn).className = 'hide';
+	document.getElementById(imageid).className = 'code-img show';
 }

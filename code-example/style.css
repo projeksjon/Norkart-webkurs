@@ -28,13 +28,11 @@ div {
 .code-img{
     width: 30%;
 }
-#bestStudy-img {
+.hide {
     display: none;
 }
-#bestSpes-img {
-    display: none;
-}#bestWork-img {
-    display: none;
+.show {
+    display: -webkit-inline-box;
 }
 button{
     width: 230px;
