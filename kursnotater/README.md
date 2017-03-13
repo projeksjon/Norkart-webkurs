@@ -13,7 +13,7 @@
   - [Klassenavn-selector](#Class-selector)
   - [Kombinert-selector](#Combined-selector)
   - [Gruppe-selector](#Group-selector)
-- [javaScript](#javascript)
+- [JavaScript](#javascript)
 
 
 ## Webprogrammering
@@ -136,7 +136,7 @@ h1, h2, #info{
 Her spesifiserer man stilen for både `h1` og `h2` elementer, og elementet med `id = info`.
 
 
-## javaScript
+## JavaScript
 JavaScript har ingenting med Java å gjøre (utenom likhet i navnet).
 
 I webutvikling kan man velge å enten skrive JavaScript koden i html filen eller lage en egen fil. Skal man skrive javasvcripten i html-filen skal dette gjøres inni `<script> </script>` taggen. Det mest vanlige, og mest ryddige, er å skrive JavaScript koden i en egen fil som man lagrer som "filnavn".js for deretter å importere denne filen i html filen din ved å skrive `<script src="filnavn.js"/> `.
