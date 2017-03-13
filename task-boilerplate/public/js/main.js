@@ -14,14 +14,9 @@ function setMap() {
       var basemapUrl='http://{s}.tile.osm.org/{z}/{x}/{y}.png';
       L.tileLayer(basemapUrl).addTo(map);
 
-
-      //Adding the carto layer to the map:
-      cartodb.createLayer(map, 'https://mathildeo.carto.com/api/v2/viz/808e5efa-f6bd-11e6-bd76-0ee66e2c9693/viz.json', { https: true })
-      .addTo(map)
-      .on('error', function(err) {
-            alert("some error occurred: " + err);
-      });
-
+      //Adding geoJSON layer to the map:
+      L.geoJSON(utesteder)
+      .addTo(map);
 }
 
 window.onload = setMap;
