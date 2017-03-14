@@ -8,7 +8,7 @@ var utesteder = {
       "type": "Feature",
       "id": "node/33209415",
       "properties": {
-        "name": "Daglighallen"
+        "name": "Studenter Samfundet"
       },
       "geometry": {
         "type": "Point",
