@@ -90,20 +90,6 @@ var utesteder = {
     },
     {
       "type": "Feature",
-      "id": "node/386579903",
-      "properties": {
-        "name": "Hjørnet bar",
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.3992443,
-          63.4317548
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/893397017",
       "properties": {
         "name": "Kieglekroa",
@@ -216,22 +202,6 @@ var utesteder = {
     },
     {
       "type": "Feature",
-      "id": "node/2275971940",
-      "properties": {
-        "@id": "node/2275971940",
-        "amenity": "nightclub",
-        "name": "Rock City"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.4008771,
-          63.4346258
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2930084190",
       "properties": {
         "name": "Diskoteket",
@@ -297,20 +267,6 @@ var utesteder = {
         "coordinates": [
           10.4012364,
           63.4341322
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/2969467028",
-      "properties": {
-        "name": "Fru Lundgreen",
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.4043334,
-          63.4341987
         ]
       }
     },
@@ -395,20 +351,6 @@ var utesteder = {
         "coordinates": [
           10.4119109,
           63.434667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/4412824636",
-      "properties": {
-        "name": "Jesper Nattmann"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.3961793,
-          63.4331298
         ]
       }
     },
