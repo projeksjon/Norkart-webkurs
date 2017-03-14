@@ -47,8 +47,7 @@ Url: `https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?
 Url: `http://{s}.tile.osm.org/{z}/{x}/{y}.png`
 
 
-## Popup
-http://leafletjs.com/reference.html#popup
+## Endringer som kan gjøres i/på kartet
+http://leafletjs.com/examples/geojson/
 
-## Styling
-http://leafletjs.com/examples/custom-icons/
+
