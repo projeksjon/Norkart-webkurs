@@ -6,8 +6,7 @@
 - [Oppgave](#oppgave)
 - [Kjøre koden](#kjøre-koden)
 - [Bakgrunnskart](#bakgrunnskart)
-- [Popup](#popup)
-- [Styling](#styling)
+- [Tutorial](#tutorial)
 
 ## Oppgave
 Lag en nettside som på best mulig måte viser dine topp tre utesteder i Trondheim. Ta utganspunkt i koden som ligger i mappen [task-boilerplate](./task-boilerplate).
@@ -47,7 +46,7 @@ Url: `https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?
 Url: `http://{s}.tile.osm.org/{z}/{x}/{y}.png`
 
 
-## Tutorial med eksempler på hva man kan gjøre 
+## Tutorial med eksempler på hva man kan gjøre <a src="tutorial"> </a>
 http://leafletjs.com/examples/geojson/
 
 
