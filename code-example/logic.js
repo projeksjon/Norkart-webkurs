@@ -1,5 +1,8 @@
 
-function addImageRemoveBtn(idbtn, imageid) {
-	document.getElementById(idbtn).className = 'hide';
-	document.getElementById(imageid).className = 'show';
+function showImage(id) {
+	document.getElementById(id).className = 'show';
+}
+
+function hideButton(id){
+	document.getElementById(id).className="hide";
 }
