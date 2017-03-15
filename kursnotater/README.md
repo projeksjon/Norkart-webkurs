@@ -56,9 +56,9 @@ Noen eksempler på HTML tags er:
 <p>My first paragraph.</p>
 <img src = "source_url"></img>
 <a href ="link_url">I'm a link, click me!</a>
-<ul class="list">
-  <li>First list element</li>
-  <li>Second list element</li>
+<ul id ="list">
+  <li class="center">First list element</li>
+  <li class="center">Second list element</li>
   <li>Third list element</li>
 </ul>
 
