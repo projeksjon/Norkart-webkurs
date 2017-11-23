@@ -1,0 +1,31 @@
+body{
+  width: 100vw;
+  height: 100%;
+  text-align: center;
+  margin-top: 100px;
+  font-family: arial;
+}
+
+
+.hide{
+    display: none;
+}
+
+.show {
+  display: inline;
+}
+
+button{
+  background-color: #ff5976;
+  border: none;
+  padding: 15px;
+  font-size: 23px;
+  width: 173px;
+  border-radius: 16px;
+  margin-bottom: 50px;
+}
+
+
+img {
+  width: 40%;
+}
