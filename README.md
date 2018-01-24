@@ -14,6 +14,9 @@ Lag en nettside som på best mulig måte viser dine topp tre utesteder i Trondhe
 ## Kjøre koden
 Last ned koden ved å trykke "Clone or Download". Deretter last ned zip, eller clone hvis du har git installert. Når koden er lastet ned kan du gå inn i mappen som heter `task-boilerplate` og åpne `index.html` i nettleseren, og du er i gang!
 
+## Tutorial med eksempler på hva man kan gjøre <a name="tutorial"> </a>
+http://leafletjs.com/examples/geojson/
+
 ## Bakgrunnskart
 
 Bakgrunnskart definerer stilen på kartet, og kan enkelt byttes i koden i `public/js/index.js`.
@@ -44,9 +47,3 @@ Url: `https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?
 <img src="./img/osm.png" width="450px"/>
 
 Url: `http://{s}.tile.osm.org/{z}/{x}/{y}.png`
-
-
-## Tutorial med eksempler på hva man kan gjøre <a name="tutorial"> </a>
-http://leafletjs.com/examples/geojson/
-
-
