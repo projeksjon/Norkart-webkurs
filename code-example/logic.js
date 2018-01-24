@@ -4,5 +4,5 @@ function showImage(id) {
 }
 
 function hideButton(id){
-	document.getElementById(id).className="hide";
+	document.getElementById(id).className= 'hide';
 }

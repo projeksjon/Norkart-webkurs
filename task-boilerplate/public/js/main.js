@@ -15,8 +15,7 @@ function setMap() {
       L.tileLayer(basemapUrl).addTo(map);
 
       //Adding geoJSON layer to the map:
-      L.geoJSON(utesteder)
-      .addTo(map);
+      L.geoJSON(utesteder).addTo(map);
 }
 
 window.onload = setMap;
